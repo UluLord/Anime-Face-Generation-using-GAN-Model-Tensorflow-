@@ -1,6 +1,9 @@
 # Anime Face Generation using GAN Model [Tensorflow]
 A Generative Adversarial Network (GAN) is a deep learning model used for generating new data samples from an existing dataset. The model consists of two neural networks, the generator and the discriminator, which are trained simultaneously in a zero-sum game manner. The generator aims to generate data samples that are indistinguishable from the real ones, while the discriminator tries to identify which samples are real and which ones are generated. The generator and the discriminator continuously improve until the generator produces realistic data samples that the discriminator can no longer distinguish. 
 
+![GANModel](https://user-images.githubusercontent.com/99184963/222919024-04936461-fb2c-478b-a240-1b9251b97d1e.png)
+>Retrieved from [Google Developers](https://developers.google.com/machine-learning/gan/generator) 
+
 In this repository, the GAN model has been trained on  anime face dataset to generate new synthetic anime faces.
 
 **NOTE: You can use the repository not only for this dataset, but also for any dataset you want. You are very free to adjust the hyperparameters of the GAN model to improve your model for your project.**
